@@ -38,5 +38,5 @@ const promesa3 = new Promise((resolve, reject) => {
 
 Promise.all([promesa1, promesa2, promesa3]).then(values => {
     const randomNumberResult = randomNumber1 + randomNumber2 + randomNumber3;
-    console.log(randomNumberResult);
+    console.log("La suma total es : " + randomNumberResult);
 });
