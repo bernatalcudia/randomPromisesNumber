@@ -38,7 +38,7 @@ const promesa3 = new Promise((resolve, reject) => {
 Promise.all([promesa1, promesa2, promesa3]).then(values => {
     let randomNumberResult = 0;
     values.forEach((value) => {
-        randomNumberResult = randomNumberResult + value
+        randomNumberResult += value//Sum all random numbers 
     })
 
     console.log(randomNumberResult);
